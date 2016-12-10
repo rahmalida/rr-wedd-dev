@@ -318,6 +318,8 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
+     background:no-repeat;
+     background-image: url('../images/bg_img_raw_sm.jpg')!important;
   }
 }
 .fh5co-cover .display-t,
@@ -403,7 +405,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(241, 78, 149, 0.44);
   padding: 30px;
   width: 100%;
   float: left;
@@ -433,6 +435,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
+
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
@@ -1065,7 +1068,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  color: #e74c3c;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1158,7 +1161,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F14E95;
+  color: #e74c3c;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1308,7 +1311,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: #d91f19;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1850,5 +1853,23 @@ hr.style5 {
   border-top: 1px dashed #8c8b8b;
 	border-bottom: 1px dashed #fff;
 }
-
+.fw{
+  color: white !important;
+}
+.tsh{
+text-shadow: 2px 2px 4px #000000;
+}
+.bq-style{
+  font-size: 14px;
+font-style: italic;
+background-color: whitesmoke;
+}
+.men{
+  background-color: #337ab7;
+color: white;
+}
+.women{
+  background-color: #f14e95;
+color: white;
+}
 /*# sourceMappingURL=style.css.map */
